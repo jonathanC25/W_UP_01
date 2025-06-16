@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
-author: "your name here"
-date: "fall 2020"
+author: "jonathan Campos"
+date: "summer 2025"
 output: html_document
 ---
 
@@ -41,9 +41,25 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+
+
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+The bottom percent of the skill players are still better than the best of the line men.
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+average amount og line push ups for line were 17 
+average amount of skill push ups for skill was 49 
+almost 3 times the amount
 
 ## Inferential Results
 
