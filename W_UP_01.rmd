@@ -74,4 +74,4 @@ The probability of getting this result if there is no difference between how man
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-using the helper file and analyzing the data the results show the skilled players did more pushups than the line players. We used a boxplot to show the difference betweeen the amount of pushups. Then we ran a t.test to show there probability of there not being a difference between the two and it came out to be .000009421. Therefore there is a difference between the two.
+
